@@ -1,0 +1,86 @@
+.page{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    color: brown;
+    font-size: x-large;
+    margin: 32px 0px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: azure;
+    width: fit-content;
+    height: fit-content;
+    padding: 33px 110px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.label{
+    font-family: cursive;
+    padding: 0px 5px;
+}
+
+.above{
+    height: 50%;
+    width: 100%;
+}
+
+.text-input-field{
+    width: 80%;
+    height: 100%;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    outline: 0;
+}
+
+.btn{
+    height: 100%;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin: 3px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: beige;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 229, 255);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 132, 255);
+}
+
+.range-input {
+    width: 90%;
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.range-input:hover {
+    opacity: 1;
+}
+
+.range-input::-webkit-slider-thumb {
+    width: 55px; 
+    height: 55px; 
+    border-radius: 20px;
+    background: #04AA6D; 
+    cursor: pointer; 
+}
